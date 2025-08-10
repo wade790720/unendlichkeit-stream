@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  overflow: hidden;
+  font-family: "Courier New", monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: #ffb347;
+  z-index: 1000;
+  font-size: 12px;
+  text-shadow: 0 0 10px rgba(255, 179, 71, 0.5);
+}
+
+.controls {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  color: #87ceeb;
+  z-index: 1000;
+  font-size: 11px;
+  text-shadow: 0 0 10px rgba(135, 206, 235, 0.3);
+}
